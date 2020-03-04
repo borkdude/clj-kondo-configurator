@@ -4,8 +4,9 @@ CLI tool to merge clj-kondo configurations.
 
 ## Why
 
-Merging clj-kondo configurations may come in handy when you have a configuration template that you always want to apply on every project and you
-want to merge it with the existing one.
+Merging clj-kondo configurations may come in handy when you have a configuration
+template that you always want to apply on every project and you want to merge it
+with the existing one.
 
 ## Installation
 
