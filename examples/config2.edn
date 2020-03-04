@@ -1,0 +1,3 @@
+{:lint-as {me.raynes.conch/programs clojure.core/declare}
+ :linters {:unresolved-symbol {:exclude [(secretary.core/defroute)]}
+           :missing-docstring {:level :off}}}

@@ -1,0 +1,3 @@
+{:linters {:unsorted-required-namespaces {:level :warning}}
+ :lint-as {me.raynes.conch/let-programs clojure.core/let}
+ :unresolved-symbol {:exclude [(secretary.core/defroute)]}}
