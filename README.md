@@ -32,20 +32,6 @@ Options to this tool are provided via the `--opts` argument which takes on EDN
 map. Currenly `:merge` is the only option available which can be used to
 deep-merge clj-kondo configuration files.
 
-Example invocation:
-
-``` clojure
-$ clj -m clj-kondo-configurator.main --opts '{:merge ["examples/config1.edn" "examples/config2.edn"]}'
-{:linters
- {:unsorted-required-namespaces {:level :warning},
-  :unresolved-symbol {:exclude [(secretary.core/defroute)]},
-  :missing-docstring {:level :off}},
- :lint-as
- #:me.raynes.conch{let-programs clojure.core/let,
-                   programs clojure.core/declare},
- :unresolved-symbol {:exclude [(secretary.core/defroute)]}}
-```
-
 ### Update existing config with template
 
 ``` clojure
@@ -56,6 +42,6 @@ $ clj -m clj-kondo-configurator.main \
 
 ## License
 
-Copyright © 2019 Michiel Borkent
+Copyright © 2020 Michiel Borkent
 
 Distributed under the EPL License, same as Clojure. See LICENSE.
