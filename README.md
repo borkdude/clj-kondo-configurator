@@ -10,7 +10,16 @@ want to merge it with the existing one or just populate the initial one.
 
 ## Installation
 
-Use as a git dep via `deps.edn`.
+Use as a git dep via `deps.edn`:
+
+``` clojure
+{:deps
+ {clj-kondo-configurator
+  {:git/url "https://github.com/borkdude/clj-kondo-configurator"
+   :sha "4057a9e5c2070b6fbd69b2a7aa838c479f1e4ce1"}}}
+```
+
+Update SHA at your own convenience.
 
 ## Status
 
